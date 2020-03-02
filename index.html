@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>AwesomeFest 2020</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Rock+Salt&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>AwesomeFest</h1>
+        <h2> Coming to Barrie, Ontario</h2>
+        <h3>Summer 2020</h3>
+      </div>
+    </header>
+    <div class="wrapper">
+      <main>
+        <section>
+         <p> A 2 day festival experience featuring all your favourite bands right here in your own backyard.</p>
+          <section class="images">
+           <div>
+              <img src="images/awesomefest.jpg" alt="awesomefest concert picture">
+           </div>
+           <div>
+            <img src="images/awesomefest-2.jpg" alt="hands in the air">
+           </div>
+          </section>
+        </section>
+        <section>
+         <h3>Tickets</h3>
+         <table>
+           <caption>Ticket Pricing Information</caption>
+          <thead>
+            <tr>
+              <th>Ticket Type</th>
+              <th>Description</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ultra Awesome Ticket</td>
+              <td><ul>
+                  <li>⋆2 Day Camping Pass in VIP exclusive section⋆</li>
+                  <li>⋆VIP backstage access⋆</li>
+                  <li>⋆Awesomefest Swag⋆</li>
+                </ul></td>
+              <td>$600</td>
+            </tr>
+            <tr>
+              <td>Super Awesome Ticket</td>
+              <td><ul>
+                <li>⋆1 Day Camping pass⋆</li>
+                <li>⋆Awesomefest Swag⋆</li>
+              </ul></td>
+              <td>$400</td>
+            </tr>
+            <tr>
+              <td>Awesome Ticket</td>
+              <td><ul>
+                <li>⋆One day access to main and side stage⋆</li>
+                <li>⋆Awesomefest beanie⋆</li>
+              </ul></td>
+              <td>$200</td>
+            </tr>
+          </tbody>
+        </table>
+        </section>
+        <section>
+          <form>
+            <fieldset class="form-group">
+              <legend><h3>Buy Tickets Now!</h3></legend>
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" class="form-control">
+              <label for="lastname">Last Name
+              <input type="text" id="lastname" class="form-control">
+              <label for="email"> Email Address
+            <input type="text" id="email" placeholder="justawesome@summer2020.com" class="form-control">
+            <label for="phone"> Phone Number
+            <input type="tel" id="phone" placeholder="705-500-0055" class="form-control">
+            <label for="tickettype">Ticket Type:</label>
+            <select id="tickettype">
+              <option value=""disabled selected>Select A Ticket Type</option>
+              <option value="ultra">Ultra Awesome Ticket - $600</option>
+              <option value="super">Super Awesome Ticket - $400</option>
+              <option value="awesome">Awesome Ticket - $200</option>
+            </select>
+              <label for="creditid">Credit Card Type:</label>
+              <select id="creditCards">
+                <option value=""disabled selected>Select A Credit Card Type</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="visa">Visa</option>
+                <option value="americanExpress">American Express</option>
+              </select>
+              <label for="cardnumber">Credit Card Number</label>
+              <input type="number" id="cardnumber" class="form-control">
+          </fieldset>
+          <input type="submit" value="Submit">
+        </form>
+  <!-- need form here, must include fields for first name, last name, email, phonenumber,  ticket type (dropdown or radio boxes), credit card type (dropdown) and cc number.-->
+        </section>
+      </main>
+      <footer>
+        <p> Copyright AwesomeFest 2020 &copy;. All Rights Reserved.</p>
+      </footer>
+    </div><!--end wrapper-->
+  </body>
+</html>
